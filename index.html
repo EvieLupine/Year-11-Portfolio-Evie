@@ -1,38 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Evie's Year 11 Portfolio</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-<div><style>
-.container {
-  display: inline-block;
-  cursor: pointer;
-}
 
-.bar1, .bar2, .bar3 {
-  width: 35px;
-  height: 5px;
-  background-color: #333;
-  margin: 6px 0;
-  transition: 0.4s;
-}
+<script>
+  function myFunction(x) {
+    x.classList.toggle("change");
+  }
+  </script>
 
-.change .bar1 {
-  transform: translate(0, 11px) rotate(-45deg);
-}
+  </head>
 
-.change .bar2 {opacity: 0;}
-
-.change .bar3 {
-  transform: translate(0, -11px) rotate(45deg);
-}
-</style>
-</head>
-<body>
-
+  <body>
 
 <div class="container" onclick="myFunction(this)">
   <div class="bar1"></div>
@@ -40,42 +23,38 @@
   <div class="bar3"></div>
 </div>
 
-<script>
-function myFunction(x) {
-  x.classList.toggle("change");
-}
-</script> </div>
-    <title>Evie's Year 11 Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-</head>
-<body>
-    <h1>☆ Evie Sellen</h1>  <h3>→sellene@wsc.school.nz</h3>
+
+    <h1>☆ Evie Sellen</h1>  
+    <h3>→sellene@wsc.school.nz</h3>
 
     <h1>☆ Year 11 Portfolio</h1>
-    <div class="tab">
-        <button class="tablinks" onmouseover="openCity(event, '→☆About Me☆←')">→☆About Me☆←</button>
-    </div>
     
     <h1><a href="https://github.com/EvieLupine/EvieLupine">→☆About Me☆←</a></h1>
     <p>This is a link to my READ.ME File with a bit of writing about me.</p>
     <div id="→☆About Me☆←" class="tabcontent"></div>
 </div>
-<div class="tab">
-    <button class="tablinks" onmouseover="openCity(event, 'This is for when you want to return to this page.')">This is for when you want to return to this page.</button>
-</div>  
+
+<div class="horizontal-box">
+  
+  <div class="tab">
     <p>☆Home☆</p>
-</div>
+    <button class="tablinks" >This is for when you want to return to this page.</button>
+</div>  
+    
 <div class="tab">
-    <button class="tablinks" onmouseover="openCity(event, 'View My Project!')">View My Project!</button>
+  <p>☆Project 1☆</p>
+    <button class="tablinks">View My Project!</button>
 </div> 
-    <p>☆Project 1☆</p>
-</div>
 
 <div class="tab">
-    <button class="tablinks" onmouseover="openCity(event, 'View My Project!')">View My Project!</button>
+  <p>☆Project 2☆</p>
+    <button class="tablinks">View My Project!</button>
 </div>
-    <p>☆Project 2☆</p>
+    
 </div>
+
     <img src="wolf.jfif"/>
+
+    </body>
 </html>
