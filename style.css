@@ -1,15 +1,27 @@
 h1 {
-    color:rgb(49, 12, 56);
-    text-align:center
-    p.outset {border-style: outset;}
+
+  text-align:center
+  p.outset {border-style: outset;}
+  border-radius: 12px;
+  padding: 5px;
+  color:rgb(49, 12, 56);
+  text-shadow: 2px 2px 4px #000000;
 }
 
 h3 {
     color:rgb(49, 12, 56);
+    text-shadow: 2px 2px 4px #000000;
     text-align:center
     p.outset {border-style: outset;}
+    border-radius: 12px;
+    padding: 5px;
 }
 body {
+  {
+    background-image: url(purple flowers);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
     background-color: rgb(221, 209, 188);
 
 }
@@ -19,7 +31,8 @@ body {
     border: 2px solid rgb(110, 31, 117);
     background-color: rgb(222, 160, 232);
     width: 30%;
-    height: 300px;
+    height: 20px;
+    padding: 22px 16px;
   }
   
   /* Style the buttons that are used to open the tab content */
@@ -27,8 +40,8 @@ body {
     display: block;
     background-color: rgb(222, 160, 232);
     color: rgb(222, 160, 232);
-    padding: 22px 16px;
     width: 100%;
+    padding: 22px 16px;
     border: 2px solid rgb(110, 31, 117);
     outline: none;
     text-align: center;
@@ -49,10 +62,10 @@ body {
   /* Style the tab content */
 .tabcontent {
     float: center;
-    padding: 0px 12px;
     border: 2px solid rgb(110, 31, 117);
     width: 70%;
     border-left: solid; 
-    height: 300px;
+    height: 20px;
     display: none;
+    padding: 22px 16px;
   }
