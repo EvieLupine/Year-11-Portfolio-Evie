@@ -1,14 +1,16 @@
 h1 {
     color:rgb(49, 12, 56);
     text-align:center
-      
+    p.outset {border-style: outset;}
 }
 
 h3 {
     color:rgb(49, 12, 56);
+    text-align:center
+    p.outset {border-style: outset;}
 }
 body {
-    background-color: rgb(225, 214, 193,);
+    background-color: rgb(221, 209, 188);
 
 }
 /* Style the tab */
@@ -31,6 +33,7 @@ body {
     outline: none;
     text-align: center;
     cursor: pointer;
+    p.outset {border-style: outset;}
   }
   
   /* Change background color of buttons on hover */
